@@ -1,0 +1,22 @@
+CODEBUCH Pretest,,,,,,,,ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.
+,,,,,,,,am,action Medeor
+ALLGEMEIN,,,,,,,,arche,arche noVa
+"keine Umlaute, keine Sonderzeichen, kein Punkt, kein Komma, kein Leerzeichen. NUR Buchstaben",,,,,,,,ASB,Arbeiter-Samariter-Bund
+Namen und id in edge- und nodelist gleich schreiben!,,,,,,,,BORDA,BORDA
+,,,,,,,,care,care
+,,,,,,,,cbm,Christoffel Blindenmission
+,,,,,,,,DAHW,Deutsche Lepra- und Tuberkulosehilfe e.V.
+,,,,,,,,GTO,German Toilet Organization
+WERT,KOMMENTAR,,,,,,,help,HELP - Hilfe zur Selbsthilfe
+edgelist,,,,,,,,IOG,Ingenieure ohne Grenzen
+from,"Unternehmen, NGOs, staatl. Organisation und Verbände, die die NGO des WASH-Netzwerks unterstützen",,,,,,,JU,Johanniter Unfallhilfe e.V 
+to,NGO aus dem WASH-Netzwerk,,,,,,,MI ,Malteser International 
+,,,,,,,,PD ,Plan Deutschland 
+nodelist,,,,,,,,ToG,Tierärzte ohne Grenzen
+id,"evtl abgekürzter Name des Unternehmens, NGO, staatl. Organisation oder Verbandes",,,,,,,VcA,Viva con Agua
+name,ausgeschriebener Name,,,,,,,WECF ,Women Engage For A Common Future e.V. 
+type,NGO (1)/ Unternehmen(2) / Verband(3) / staatl. Organisation(4),,,,,,,WHH,Welthungerhilfe
+,,,,,,,,WIN,Water Integrity Network
+,,,,,,,,WRD,world relief Deutschland
+,,,,,,,,WU ,Wash United 
+,,,,,,,,WV,World Vision
