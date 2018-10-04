@@ -51,14 +51,9 @@ Kreutz,ASB
 Mertenskoetter,arche
 Trentzsch,arche
 Loeper,arche
-Voigt,arche
-Olkusznik,arche
-Choi,arche
-Panzerbieter,GTO
 Marth,GTO
 Langenbach,GTO
 Wagner,GTO
-Papendieck,IOG
 Saygin,IOG
 Appel,IOG
 Straub,IOG
@@ -78,18 +73,12 @@ Bieger,JU
 Fritz,JU
 PreussK,JU
 Tuppeck,JU
-Boeker,JU
-Hermeier,JU
-Kroessin,JU
-Kruse,JU
 Kraemer,WRD
 Hamm,WRD
 Benckert,WRD
 vonLobkowicz,MI
 vonMirbachHarff,MI
 vonBrandensteinZeppelin,MI
-zuLoewenstein,MI
-Pankau,MI
 Hoelken,MI
 SaurmaJeltsch,MI
 vonFuerstenberg,MI
@@ -108,7 +97,6 @@ Schleyer,PD
 JahrStilcken,PD
 vonBassewitz,PD
 AroldHahn,PD
-Doerner,PD
 Bernadotte,PD
 Ellerbeck,PD
 Eick,PD
@@ -132,7 +120,6 @@ SeegersKarasek,PD
 Wickert,PD
 Steffen,PD
 Veith,PD
-Rau,VcA
 Weskott,VcA
 Doever,VcA
 Rueckheim,VcA
@@ -273,7 +260,6 @@ Bellmann,ToG
 Abraham,ToG
 Hoppenheit,ToG
 Deger,ToG
-Griebenow,ToG
 Jakobs,DAHW
 Potschka,DAHW
 Wollenschlaeger,DAHW
@@ -284,7 +270,6 @@ HammerschmidtM,DAHW
 Mack,DAHW
 Schroeren,DAHW
 Klement,DAHW
-Molke,ADRA
 Dullinger,ADRA
 Zens,ADRA
 Martins,ADRA
