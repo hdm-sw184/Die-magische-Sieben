@@ -22,7 +22,7 @@ Kuenzer,Nia Kuenzer,w,Kuratorium,WHH
 Leipold,Gerd Leipold,m,Kuratorium,WHH
 Oetker,CarlFerdinand Oetker,m,Kuratorium,WHH
 Pfitzer,Marc Pfitzer,m,Kuratorium,WHH
-Preuss,HansJoachim Preuss,m,Kuratorium,WHH
+PreussH,HansJoachim Preuss,m,Kuratorium,WHH
 Raue,Stefan Raue,m,Kuratorium,WHH
 Reim,Dagmar Reim,w,Kuratorium,WHH
 Riesenbeck,Hajo Riesenbeck,m,Kuratorium,WHH
@@ -33,7 +33,7 @@ vonHoltzbrinck,Dieter vonHoltzbrinck,m,Kuratorium,WHH
 Zschocke,Christian Zwschocke,m,Kuratorium,WHH
 Muentefering,Franz Muentefering,m,Praesidium,ASB
 Gleicke,Iris Gleicke,w,Praesidium,ASB
-Hammerschmidt,Rudolf Hammerschmidt,m,Praesidium,ASB
+HammerschmidtR,Rudolf Hammerschmidt,m,Praesidium,ASB
 MuellerW,Wilhelm Mueller,m,Praesidium,ASB
 Fleckenstein,Knut Fleckenstein,m,Bundesvorstand,ASB
 Borchmann,Uwe Borchmann,m,Bundesvorstand,ASB
@@ -71,12 +71,12 @@ Seligmann,Oliver Seligmann,m,Praesidium,JU
 WagnerPinggera,Andrea WagnerPinggera,w,Praesidium,JU
 Bieger,FrankHenning Bieger,m,Praesidium,JU
 Fritz,Peter Fritz,m,Praesidium,JU
-Preuss,Klaus Preuss,m,Praesidium,JU
+PreussK,Klaus Preuss,m,Praesidium,JU
 Tuppeck,Peter Tuppeck,m,Praesidium,JU
 Kraemer,Stephan Kraemer,m,Vorstand,WRD
 Hamm,Michaela Hamm,w,Vorstand,WRD
 Benckert,Andrew Benckert,m,Vorstand,WRD
-vonLobkowicz ,Erich Prinz vonLobkowicz ,m,Praesident,MI
+vonLobkowicz,Erich Prinz vonLobkowicz,m,Praesident,MI
 vonMirbachHarff,Clemens Graf vonMirbachHarff,m,Vizepraesident ,MI
 vonBrandensteinZeppelin,Constantin vonBrandensteinZeppelin,m,Praesident ,MI
 SaurmaJeltsch,Douglas Graf vonSaurmaJeltsch,m,Vorstand,MI
@@ -102,7 +102,6 @@ Ellerbeck,Thomas Ellerbeck,m,Kuratorium,PD
 Eick,Gabriele Eick,w,Kuratorium,PD
 vonHardenberg,Tita vonHardenberg,w,Kuratorium,PD
 Hess,MarcOliver Hess,m,Kuratorium,PD
-Funke,Rainer Funke,m,Kuratorium,PD
 Jergitsch,Friedrich Jergitsch,m,Kuratorium,PD
 Hopfen,Jeannette Hopfen,w,Kuratorium,PD
 Kracht,Marion Kracht,w,Kuratorium,PD
@@ -111,7 +110,6 @@ Marjan,MarieLuise Marjan,w,Kuratorium,PD
 Kretz,FranzJosef Kretz,m,Kuratorium,PD
 Noelling,Philip Noelling,m,Kuratorium,PD
 MayerBonde,Conny MayerBonde,w,Kuratorium,PD
-Roth,Karin Roth,w,Kuratorium,PD
 Risser,Karin Risser,w,Kuratorium,PD
 Schwesig,Manuela Schwesig,w,Kuratorium,PD
 Schoenwaelder,Hans Schoenwaelder,m,Kuratorium,PD
@@ -171,7 +169,7 @@ Eigen,Peter Eigen,m,Kuratorium,care
 Eisenblaetter,Bernd Eisenblaetter,m,Kuratorium,care
 Eppelmann,Reiner Eppelmann,m,Kuratorium,care
 Fink,Ulf Fink,m,Kuratorium,care
-Fischer,Hartwig Fischer,m,Kuratorium,care
+FischerH,Hartwig Fischer,m,Kuratorium,care
 Funke,Rainer Funke,m,Kuratorium,care
 Hoffmann,Christiane Hoffmann,w,Kuratorium,care
 Hornhues,KarlHeinz Hornhues,m,Kuratorium,care
@@ -179,7 +177,6 @@ Jamann,Wolfgang Jamann,m,Kuratorium,care
 Kiencke,Jens Kiencke,m,Kuratorium,care
 Klose,HansUlrich Klose,m,Kuratorium,care
 Knoerig,Axel Knoerig,m,Kuratorium,care
-Kofler,Baerbel Kofler,w,Kuratorium,care
 Lehr,Ursula Lehr,w,Kuratorium,care
 Lenz,Marlene Lenz,w,Kuratorium,care
 DeMaiziere,Lothar de Maiziere,m,Kuratorium,care
@@ -195,7 +192,6 @@ Roettgen,Norbert Roettgen,m,Kuratorium,care
 Schareck,Bernhard Schareck,m,Kuratorium,care
 Schneider,Klaus Schneider,m,Kuratorium,care
 Schulte,Brigitte Schulte,w,Kuratorium,care
-Schwan,Gesine Schwan,w,Kuratorium,care
 Teltschik,Horst Teltschik,m,Kuratorium,care
 Vaatz,Arnold Vaatz,m,Kuratorium,care
 Vassiliadis,Michael Vassiliadis,m,Kuratorium,care
@@ -230,7 +226,6 @@ Derix,Stefan Derix,m,Praesidium,am
 Hochbruck,Marlis Hochbruck,w,Praesidium,am
 Viefers,Ulrich Viefers,m,Praesidium,am
 Optendrenk,Marcus Optendrenk,m,Beirat,am
-Kersting,HeinzJoachim Kersting,m,Beirat,am
 Glimm,Stefan Glimm,m,Beirat,am
 Koerber,Manfred Koerber,m,Beirat,am
 Kindling,Ullrich Kindling,m,Beirat,am
@@ -244,7 +239,7 @@ Schiessl,Peter Schiessl,m,Vorstand,cbm
 Brockhaus,Rainer Brockhaus,m,Vorstand,cbm
 Biley,Amichia Biley,m,Aufsichtsrat,cbm
 Duncker,Claus Duncker,m,Aufsichtsrat,cbm
-Fischer,Siegfried Fischer,m,Aufsichtsrat,cbm
+FischerS,Siegfried Fischer,m,Aufsichtsrat,cbm
 Heesch,Peter Heesch,m,Aufsichtsrat,cbm
 Huppenbauer,Christoph Huppenbauer,m,Aufsichtsrat,cbm
 Rabbow,Michael Rabbow,m,Aufsichtsrat,cbm
@@ -264,7 +259,7 @@ Wollenschlaeger,Sibylle Wollenschlaeger,w,Aufsichtsrat,DAHW
 Kloetzer,Ralf Kloetzer,m,Aufsichtsrat,DAHW
 Greulich,HansDieter Greulich,m,Aufsichtsrat,DAHW
 Miesen,Patrick Miesen,m,Praesident,DAHW
-Hammerschmidt,Maria Hammerschmidt,w,Vorstand,DAHW
+HammerschmidtM,Maria Hammerschmidt,w,Vorstand,DAHW
 Mack,Stefan Mack,m,Vorstand,DAHW
 Schroeren,Jochen Schroeren,m,Vorstand,DAHW
 Klement,Dietmar Klement,m,Vorstand,DAHW
