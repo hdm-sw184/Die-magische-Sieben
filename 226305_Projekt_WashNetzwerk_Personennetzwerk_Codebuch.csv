@@ -15,11 +15,8 @@ nodelist,,,,,,,PD ,Plan Deutschland
 id,abgekürzter Name der Person (an from/edgelist orientieren),,,,,,ToG,Tierärzte ohne Grenzen
 name,ausgeschriebener Name (Hans Mueller),,,,,,VcA,Viva con Agua
 sex,w/m,,,,,,WECF ,Women Engage For A Common Future e.V. 
-position,"nur männliche Form: Präsident, Vizepräsident, Präsidium, Kuratorium, Geschäftsführung, Vorstand",,,,,,WHH,Welthungerhilfe
+position,"nur männliche Form: Präsident, Vizepräsident, Präsidium, Kuratorium, Vorstand",,,,,,WHH,Welthungerhilfe
 ,Doppelpositionen trennen mit Komma!,,,,,,WIN,Water Integrity Network
 ,"Stellvertretender Vorsitzende, Vorsitzende Kuratorium etc. weglassen --> einfach nur Kuratorium",,,,,,WRD,world relief Deutschland
 Derzeitige NGO,Derzeitige NGO --> Liste NGO Abkürzungen,,,,,,WU ,Wash United 
 Andere NGO,Waren die Personen vor der jetzigen Position schon in anderen NGOs aktiv? ,,,,,,WV,World Vision
-Organisation,Stiftungen etc.,,,,,,,
-Politik,NUR Partei,,,,,,,
-Medien/Rundfunk/Fernsehen,,,,,,,,
