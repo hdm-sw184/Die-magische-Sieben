@@ -22,7 +22,7 @@ Kuenzer,WHH
 Leipold,WHH
 Oetker,WHH
 Pfitzer,WHH
-Preuss,WHH
+PreussH,WHH
 Raue,WHH
 Reim,WHH
 Riesenbeck,WHH
@@ -33,7 +33,7 @@ vonHoltzbrinck,WHH
 Zschocke,WHH
 Muentefering,ASB
 Gleicke,ASB
-Hammerschmidt,ASB
+HammerschmidtR,ASB
 MuellerW,ASB
 Fleckenstein,ASB
 Borchmann,ASB
@@ -76,7 +76,7 @@ Seligmann,JU
 WagnerPinggera,JU
 Bieger,JU
 Fritz,JU
-Preuss,JU
+PreussK,JU
 Tuppeck,JU
 Boeker,JU
 Hermeier,JU
@@ -185,7 +185,7 @@ Eigen,care
 Eisenblaetter,care
 Eppelmann,care
 Fink,care
-Fischer,care
+FischerH,care
 Funke,care
 Hoffmann,care
 Hornhues,care
@@ -259,7 +259,7 @@ Schiessl,cbm
 Brockhaus,cbm
 Biley,cbm
 Duncker,cbm
-Fischer,cbm
+FischerS,cbm
 Heesch,cbm
 Huppenbauer,cbm
 Rabbow,cbm
@@ -280,7 +280,7 @@ Wollenschlaeger,DAHW
 Kloetzer,DAHW
 Greulich,DAHW
 Miesen,DAHW
-Hammerschmidt,DAHW
+HammerschmidtM,DAHW
 Mack,DAHW
 Schroeren,DAHW
 Klement,DAHW
