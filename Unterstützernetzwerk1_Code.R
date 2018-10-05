@@ -8,10 +8,10 @@ head(el)
 head(nodes)
 # wandelt die edgelist in eine Matrix um und baut das igraph-Objekt
 hties <- as.matrix(el)
-students <- graph_from_data_frame(d=hties, vertices=NULL, directed=F)
-students
+supporter <- graph_from_data_frame(d=hties, vertices=nodes, directed=T)
+supporter
 # addiert edges auf, wenn sie auf der gleichen Beziehung sind
-s <- simplify(students, edge.attr.comb = list(weight="sum"))
+s <- simplify(supporter, edge.attr.comb = list(weight="sum"))
 # ruft das finale igraph-Objekt auf.
 s
 # einfache Visualisierung
