@@ -16,3 +16,38 @@ p <- simplify(personen, edge.attr.comb = list(weight="sum"))
 p
 # einfache Visualisierung
 plot(p)
+
+# Teilnetzwerk Rainer Funke
+ego(p, order = 1, nodes = V(p)$name == "Rainer Funke", mode = "all")
+funke <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Rainer Funke", mode = "all")
+plot(funke[[1]])
+
+# Teilnetzwerk Gesine Schwan
+ego(p, order = 1, nodes = V(p)$name == "Gesine Schwan", mode ="all")
+schwan <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Gesine Schwan", mode = "all")
+plot(schwan[[1]])
+
+# Teilnetzwerk Barbel Dieckmann
+ego(p, order = 1, nodes = V(p)$name == "Baerbel Dieckmann", mode = "all")
+dieckmann <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Baerbel Dieckmann", mode = "all")
+dieckmann
+plot(dieckmann[[1]])
+
+# Teilnetzwerk Baerbel Kofler
+ego(p, order = 1, nodes = V(p)$name == "Baerbel Kofler", mode = "all")
+kofler <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Baerbel Kofler", mode = "all")
+kofler
+plot(kofler[[1]])
+
+# Teilnetzwerk HeinzJoachim Kersting
+ego(p, order = 1, nodes = V(p)$name == "HeinzJoachim Kersting", mode = "all")
+kersting <- make_ego_graph(p, order = 1, nodes = V(p)$name == "HeinzJoachim Kersting", mode = "all")
+kersting
+plot(kersting[[1]])
+
+# Vergleich von 4
+par(mfrow=c(2,2), mar=c(0,0,3,0))
+plot(funke[[1]], main="Rainer Funke")
+plot(schwan[[1]], main="Gesine Schwan")
+plot(kofler[[1]], main="Baerbel Kofler")
+plot(dieckmann[[1]], main="Baerbel Dieckmann")
