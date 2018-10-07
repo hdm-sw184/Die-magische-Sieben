@@ -2,8 +2,6 @@
 
 wip
 
-## ALLGEMEIN
-
 ## EDGE-Attribute
 FROM
 Name der Person, nur Nachname. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt z.B. Mueller oder MuellerH
