@@ -22,7 +22,7 @@ SEX
 3 = kein Geschlecht (NGOs)
 
 POSITION
-Nur männliche Firm: Präsident, Vizepräsident, Präsidium, Kuratorium
+Nur männliche Form: Präsident, Vizepräsident, Präsidium, Kuratorium
 
 DERZEITIGENGO
 Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren
