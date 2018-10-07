@@ -39,7 +39,7 @@ PARTEI
 7 = NGO
 8 = Keine Partei
 
-## LISTE NGOAbkürzungen
+## LISTE NGO-Abkürzungen
 
 ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.;
 am,action Medeor;
