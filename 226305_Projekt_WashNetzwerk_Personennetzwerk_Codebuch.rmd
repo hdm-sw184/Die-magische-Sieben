@@ -1,45 +1,45 @@
 ## Ursprung und Datenerhebung
 
 wip
-
+h
 ## ALLGEMEIN
 
 ## EDGE-Attribute
 FROM
-Name der Person, nur Nachname. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt z.B. Mueller oder MuellerH
+Name der Person, nur Nachname. Falls der Name populÃ¤r ist oder Ã¶fters vorkommt, wird der erste Buchstabe des Vornamens hinzugefÃ¼gt z.B. Mueller oder MuellerH
 
 TO
-NGO aus dem WASH-Netzwerk. Hierbei muss sich an der Liste der NGO-Abkürzungen orientiert werden.
+NGO aus dem WASH-Netzwerk. Hierbei muss sich an der Liste der NGO-AbkÃ¼rzungen orientiert werden.
 
 ## NODE-Attribute
 ID
-Nachname der Person. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt. An der Edgelist orientieren
+Nachname der Person. Falls der Name populÃ¤r ist oder Ã¶fters vorkommt, wird der erste Buchstabe des Vornamens hinzugefÃ¼gt. An der Edgelist orientieren
 
 NAME
 Ausgeschriebener Name mit Leerzeichen zwischen Vor- und Nachname-
 
 SEX
-1 = männlich
+1 = mÃ¤nnlich
 2 = weiblich
 3 = kein Geschlecht (NGOs)
 
 POSITION
-Nur männliche Firm: Präsident, Vizepräsident, Präsidium, Kuratorium
+Nur mÃ¤nnliche Firm: PrÃ¤sident, VizeprÃ¤sident, PrÃ¤sidium, Kuratorium
 
 DERZEITIGENGO
-Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren
+Die derzeitige NGO, in der die Person tÃ¤tig ist. An der Liste NGO AbkÃ¼rzungen orientieren
 
 PARTEI
 1 = CDU
 2 = CSU
 3 = SPD
-4 = Bündnis 90 Grünen
+4 = BÃ¼ndnis 90 GrÃ¼nen
 5 = FDP
 6 = Die Linke
 7 = NGO
 8 = Keine Partei
 
-## LISTE NGOAbkürzungen
+## LISTE NGOAbkÃ¼rzungen
 
 ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.
 am,action Medeor
@@ -55,7 +55,7 @@ IOG,Ingenieure ohne Grenzen
 JU,Johanniter Unfallhilfe e.V 
 MI,Malteser International 
 PD,Plan Deutschland 
-ToG,Tierärzte ohne Grenzen
+ToG,TierÃ¤rzte ohne Grenzen
 VcA,Viva con Agua
 WECF,Women Engage For A Common Future e.V. 
 WHH,Welthungerhilfe
