@@ -1,7 +1,7 @@
 ## Ursprung und Datenerhebung
 
 wip
-h
+
 ## ALLGEMEIN
 
 ## EDGE-Attribute
@@ -41,25 +41,25 @@ PARTEI
 
 ## LISTE NGOAbkürzungen
 
-ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.
-am,action Medeor
-arche,arche noVa
-ASB,Arbeiter-Samariter-Bund
-BORDA,BORDA
-care,care
-cbm,Christoffel Blindenmission
-DAHW,Deutsche Lepra- und Tuberkulosehilfe e.V.
-GTO,German Toilet Organization
-help,HELP - Hilfe zur Selbsthilfe
-IOG,Ingenieure ohne Grenzen
-JU,Johanniter Unfallhilfe e.V 
-MI,Malteser International 
-PD,Plan Deutschland 
-ToG,Tierärzte ohne Grenzen
-VcA,Viva con Agua
-WECF,Women Engage For A Common Future e.V. 
-WHH,Welthungerhilfe
-WIN,Water Integrity Network
-WRD,world relief Deutschland
-WU,Wash United 
-WV,World Vision
+ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.;
+am,action Medeor;
+arche,arche noVa;
+ASB,Arbeiter-Samariter-Bund;
+BORDA,BORDA;
+care,care;
+cbm,Christoffel Blindenmission;
+DAHW,Deutsche Lepra- und Tuberkulosehilfe e.V.;
+GTO,German Toilet Organization;
+help,HELP - Hilfe zur Selbsthilfe;
+IOG,Ingenieure ohne Grenzen;
+JU,Johanniter Unfallhilfe e.V; 
+MI,Malteser International;
+PD,Plan Deutschland;
+ToG,Tierärzte ohne Grenzen;
+VcA,Viva con Agua;
+WECF,Women Engage For A Common Future e.V.; 
+WHH,Welthungerhilfe;
+WIN,Water Integrity Network;
+WRD,world relief Deutschland;
+WU,Wash United; 
+WV,World Vision;
