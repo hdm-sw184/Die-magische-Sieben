@@ -1,0 +1,41 @@
+## Ursprung und Datenerhebung
+wip
+
+## EDGE-Attribute
+FROM
+ID des Unternehmens, der NGO, von staatlichen Organisationen und Verbänden, die das WASH-Netzwerks unterstützen. 
+TO
+NGO aus dem WASH-Netzwerk. Hierbei muss sich an der Liste der NGO-Abkürzungen orientiert werden.
+
+## NODE-Attribute
+ID
+Abkürzung in Form von IDs für Unternehmen/NGO/staatliche Organisation/Verband. Dabei gilt: keine Umlaute, keine Sonderzeichen, kein Punkt, kein Komma, keine Leerzeichen. 
+NAME
+Ausgeschriebener Name von Unternehmen/NGOs/staatlichen Organisationen/Verbänden. Dabei gilt: keine Umlaute, keine Sonderzeichen, kein Punkt, kein Komma, kein Leerzeichen. 
+TYPE
+NGO (1)/ Unternehmen(2) / Verband(3) / staatl. Organisation(4)
+
+## LISTE NGO-Abkürzungen
+
+ADRA,Adventistische Entwicklungs- und Katastrophenhilfe ADRA Deutschland e. V.;
+am,action Medeor;
+arche,arche noVa;
+ASB,Arbeiter-Samariter-Bund;
+BORDA,BORDA;
+care,care;
+cbm,Christoffel Blindenmission;
+DAHW,Deutsche Lepra- und Tuberkulosehilfe e.V.;
+GTO,German Toilet Organization;
+help,HELP - Hilfe zur Selbsthilfe;
+IOG,Ingenieure ohne Grenzen;
+JU,Johanniter Unfallhilfe e.V; 
+MI,Malteser International;
+PD,Plan Deutschland;
+ToG,Tierärzte ohne Grenzen;
+VcA,Viva con Agua;
+WECF,Women Engage For A Common Future e.V.; 
+WHH,Welthungerhilfe;
+WIN,Water Integrity Network;
+WRD,world relief Deutschland;
+WU,Wash United; 
+WV,World Vision;
