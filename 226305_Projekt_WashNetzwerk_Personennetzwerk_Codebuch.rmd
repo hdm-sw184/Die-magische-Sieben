@@ -22,7 +22,7 @@ SEX
 3 = kein Geschlecht (NGOs) (kreis)
 
 POSITION
-Nur männliche Form: Präsident (rot/red), Vizepräsident (orange), Präsidium (gelb/yellow), Kuratorium (grün/green), Vorstand (blau/blue), Verwaltungsrat (lila/violet),  Beirat (pink), Aufsichtsrat (braun/brown), NGO (grau)
+Nur männliche Form: Präsident (rot/red), Vizepräsident (orange), Präsidium (gelb/yellow), Kuratorium (grün/green), Vorstand (hellblau/lightblue), Bundesvorstand (dunkelblau/blue), Verwaltungsrat (lila/purple),  Beirat (pink), Aufsichtsrat (braun/brown), NGO (grau)
 
 DERZEITIGENGO
 Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren
