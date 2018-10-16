@@ -17,9 +17,9 @@ NAME
 Ausgeschriebener Name mit Leerzeichen zwischen Vor- und Nachname-
 
 SEX
-1 = männlich
-2 = weiblich
-3 = kein Geschlecht (NGOs)
+1 = männlich (rechteck)
+2 = weiblich (dreieck)
+3 = kein Geschlecht (NGOs) (kreis)
 
 POSITION
 Nur männliche Form: Präsident (rot/red), Vizepräsident (orange), Präsidium (gelb/yellow), Kuratorium (grün/green), Vorstand (hellblau/lightblue), Bundesvorstand (dunkelblau/blue), Verwaltungsrat (lila/violet),  Beirat (pink), Aufsichtsrat (braun/brown), NGO (grau)
