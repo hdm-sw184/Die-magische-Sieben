@@ -16,3 +16,57 @@ s <- simplify(supporter, edge.attr.comb = list(weight="sum"))
 s
 # einfache Visualisierung
 plot(s)
+
+#Visualisierung des Netzwerkes 
+# EDGE/KANTEN-Attribute festlegen
+# kleinere und schönere Kanten mit Pfeilspitzen mit Gewichten
+
+E(s)$arrow.size <- .2 # definiert die Pfeilspitze auf 20% des Ursprungswerts
+E(s)$color="grey60" # definiert die Kantenfarbe auf schwarz
+E(s)$curved=.2
+
+
+# Mit den Befehlen haben Sie die Edge-Attribute um 3 neue Werte ergänzt. Diese sind nun dauerhaft im igraph-Objekt hinterlegt.
+list.edge.attributes(s)
+
+edge.attributes(s)
+
+plot(s)
+
+#Unterschiedliche Farben der Knoten 
+#FARBEN nach Vertex-Attributen definieren
+colrs <- c("blue", "lightblue", "grey", "grey60")
+
+V(s)$color <- colrs[V(s)$type]
+# weist dem Vertex-Attribut color die Funktion colrs zu, die wir vorher mit zwei Farben definiert haben.
+plot(s)
+
+
+
+# EXTRA: TWO-MODE Netzwerke (bi-partite)
+# bei einem bi-partite Netzwerk haben Sie in der Regel die Rubrik "type" angelegt und mit 0 und 1 kodiert. Damit könnten Sie das Netzwerk wie folgt visualisieren (funktioniert in unserem Beispiel nicht, da wir kein bi-partite Netzwerk angelegt haben.)
+
+vertex_attr(s)
+V(s)[V(s)$type == 1]$shape <- "square"
+V(s)[V(s)$type == 2]$shape <- "circle"
+V(s)[V(s)$type == 3]$shape <- "circle"
+V(s)[V(s)$type == 4]$shape <- "circle"
+
+plot(s)
+
+
+#Visualisierung
+
+
+
+# Das sieht noch immer schrecklich aus. Je mehr Knoten (und Kanten), desto schlechter kann man das Netzwerk erkennen.
+# Ein weiterer Tipp für den plot-Befehl wäre es, das Netzwerk erst einmal zu entzerren.
+
+coords <- layout_with_kk(s)*0.2
+
+plot(s, edge.arrow.size=0.4, layout=coords, rescale=FALSE, edge.color="grey80", edge.arrow.size=0.4, 
+     vertex.frame.color="transparent", 
+     layout=layout_with_kk, 
+     edge.color="grey80",
+     vertex.label.dist=0.5,
+     vertex.label.color="black")
