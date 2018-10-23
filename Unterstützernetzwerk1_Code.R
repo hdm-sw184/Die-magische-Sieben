@@ -1,8 +1,8 @@
 # Beispiel Gesamtnetzwerk Studierende (Work- und Help-Netzwerk)
 library(igraph)
 # liest die Dateien direkt aus dem github-Verzeichnis ein
-el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Projekt_WashNetzwerk_Unterst%C3%BCtzernetzwerk_Edgelist.csv", header=T, as.is=T, sep = ",")
-nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Projekt_WashNetzwerk_Unterst%C3%BCtzernetzwerk_Nodelist.csv", header=T, as.is=T, sep = ",")
+el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_Edgelist_WashNetzwerk.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_Nodelist_WashNetzwerk.csv", header=T, as.is=T, sep = ",")
 # prüft, ob alle Variablen eingelesen wurden
 head(el)
 head(nodes)
