@@ -1,8 +1,8 @@
 # Beispiel Gesamtnetzwerk Studierende (Work- und Help-Netzwerk)
 library(igraph)
 # liest die Dateien direkt aus dem github-Verzeichnis ein
-el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterstuetzernetzwerk_edgelist_indegrees_groe%C3%9Fer19.csv", header=T, as.is=T, sep = ",")
-nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_nodelist_indegreesab12_ID.csv", header=T, as.is=T, sep = ",")
+el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_edgelist_indegreesab12_ID_ohneEGO.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_nodelist_indegreesab12_ID_ohneEgo.csv", header=T, as.is=T, sep = ",")
 # prüft, ob alle Variablen eingelesen wurden
 head(el)
 head(nodes)
@@ -61,7 +61,7 @@ plot(s, edge.arrow.size=.1, layout=coords, rescale=FALSE, edge.color="grey80", e
      vertex.size=9,
      vertex.label.color="black",
      main="Teilnetzwerk Indegrees >19",
-     ylim=c(-1,1), xlim=c(-1,1))
+     ylim=c(-0.9,0.9), xlim=c(-0.9,0.9))
 
 
 #Nun wollen rausfinden,wer hier die größten in und outdegrees hat  
@@ -72,4 +72,15 @@ degree(s, mode="out")
 #Degree Werte in Prozent Zahlen 
 degree(s, mode="all", normalized = TRUE)
 
-#Ids als Anzeige, noch mehr entzerren; Ein Egonetzwerk? 
+#Netzwerkanalyse
+
+# Betweenness
+betweenness(s) # Wie wahrscheinlich ist es, dass dieser Knoten die Verbindung zu anderen Knoten im Netzwerk herstellen kann? - Bedeutung der schwachen Beziehungen
+
+# Durchmesser
+diameter(s)
+
+# Density
+edge_density(s)
+
+

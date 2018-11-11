@@ -72,4 +72,35 @@ degree(s, mode="out")
 #Degree Werte in Prozent Zahlen 
 degree(s, mode="all", normalized = TRUE)
 
-#Ids als Anzeige, noch mehr entzerren; Ein Egonetzwerk? 
+#Ego-Netzwerk IOG 
+
+#Ein bis zwei Egonetzwerke bilden
+
+#Auflistung der Verbindungen der Knoten (entspricht degree)
+ego_size(s)
+
+#Detaillierte Aufstellung aller Knoten und deren direkte Verbindung
+ego(s)
+
+ego(s, order = 1, nodes = V(s)$name == "IOG", mode = "all")
+#selektiert das Ego-Netzwerk von IOG. In einem gerichteten Netzwerken kann "mode" durch in und out unterschieden werden. Mit dem Befehl "order" werden die angrenzenden Knoten ausgewählt, bei 1 sind dies alle Knoten, die direkt mit ego verbunden sind. Bei order = 2 werden auch Knoten erfasst, die zwei Schritte von Ego entfernt sind.
+#jedes Netzwerk in einzelne Egonetzwerke zerlegen; 1 Akteur den ich auswähle steht im Zentrum, 
+
+
+# mit make_ego_graph lassen sichn spezifische Knoten des Netzwerks auflisten.
+
+c
+IOG <- make_ego_graph(s, order = 1, nodes = V(s)$name == "IOG", mode = "all")
+IOG
+plot(IOG[[1]], main="Egonetzwerk IOG") # der Visualisierungsbefehl ist hier etwas umständlich.
+
+
+#Nun das Teilnetzwerk von IOG 
+
+#Auflistung der Verbindungen der Knoten (entspricht degree)
+ego_size(s)
+
+#Detaillierte Aufstellung aller Knoten und deren direkte Verbindung
+
+
+
