@@ -31,28 +31,38 @@ V(p)[neutral]$shape = "circle"
 # Farben der Partei zuweisen 
 # 1 = CDU - pink/schwarz 2 = CSU - blau 3 = SPD - rot 4 = Bündnis 90 Grünen- grün 5 = FDP - gelb 6 = Die Linke - lila  7 = NGO - grau 8 = Keine Partei - weiß
 
-colrs <- c("pink", "blue", "red", "green", "yellow", "purple", "darkgrey", "white")
+colrs <- c("pink", "lightblue", "red", "green", "yellow", "purple", "darkgrey", "orange")
 V(p)$color <- colrs[V(p)$Partei]
 
 # Plot des Gesamtnetzwerks
 
-coords <- layout_with_kk(p)*0.3 # Entzerren
+coords <- layout_with_kk(p)*1.2 # Entzerren
 
-plot(p, layout=coords, vertex.label.cex=.7, 
-     vertex.label=V(p)$name, 
-     vertex.label.color = "black",
-     vertex.label.dist =0)
-
-coords <- layout_with_kk(p)*0.25
-
-plot(p, edge.arrow.size=0.4, layout=coords, rescale=FALSE, edge.color="grey80", main="Personennetzwerk")
+plot(p,
+     layout = layout_with_kk(p),
+     vertex.size = 40,
+     vertex.label.cex=.5, 
+     vertex.frame.color="transparent",
+     vertex.label.color="black",
+     rescale=FALSE,
+     main="Personennetzwerk",
+     ylim=c(-3.5,4.5), xlim=c(-4.5,4.5))
 
 # Cluster
 gcw <- cluster_walktrap(p) # Zuordnung der Knoten zueinander
 modularity(gcw)
 membership(gcw)
 
-plot(gcw, p)
+plot(gcw, p,
+     layout = coords,
+     vertex.size = 40,
+     vertex.label.cex=.5, 
+     vertex.frame.color="white",
+     vertex.label.color="black",
+     vertex.label.cex=0.7,
+     rescale=FALSE,
+     main="Personennetzwerk",
+     ylim=c(-4.5,5.5), xlim=c(-3,4))
 
 # Degree BRINGT NICHT WIRKLICH WAS
 degree(p)
