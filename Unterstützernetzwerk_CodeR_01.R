@@ -1,10 +1,10 @@
-#Unterstützernetzwerk nur staatliche und private Unterstützer 
+#UnterstÃ¼tzernetzwerk nur staatliche und private UnterstÃ¼tzer 
 
 library(igraph)
 # liest die Dateien direkt aus dem github-Verzeichnis ein
 el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226395_Unterst%C3%BCtzernetzwerk_Staat_Privat_Edgelist.csv", header=T, as.is=T, sep = ",")
 nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_Staat_Privat_Nodelist.csv", header=T, as.is=T, sep = ",")
-# prüft, ob alle Variablen eingelesen wurden
+# prÃ¼ft, ob alle Variablen eingelesen wurden
 head(el)
 head(nodes)
 # wandelt die edgelist in eine Matrix um und baut das igraph-Objekt
@@ -19,7 +19,7 @@ plot(s)
 
 #Visualisierung des Netzwerkes 
 # EDGE/KANTEN-Attribute festlegen
-# kleinere und schönere Kanten mit Pfeilspitzen mit Gewichten
+# kleinere und schÃ¶nere Kanten mit Pfeilspitzen mit Gewichten
 
 E(s)$arrow.size <- .2 # definiert die Pfeilspitze auf 20% des Ursprungswerts
 E(s)$color="grey60" # definiert die Kantenfarbe auf schwarz
@@ -37,7 +37,7 @@ plot(s)
 
 
 # EXTRA: TWO-MODE Netzwerke (bi-partite)
-# bei einem bi-partite Netzwerk haben Sie in der Regel die Rubrik "type" angelegt und mit 0 und 1 kodiert. Damit könnten Sie das Netzwerk wie folgt visualisieren (funktioniert in unserem Beispiel nicht, da wir kein bi-partite Netzwerk angelegt haben.)
+# bei einem bi-partite Netzwerk haben Sie in der Regel die Rubrik "type" angelegt und mit 0 und 1 kodiert. Damit kÃ¶nnten Sie das Netzwerk wie folgt visualisieren (funktioniert in unserem Beispiel nicht, da wir kein bi-partite Netzwerk angelegt haben.)
 
 vertex_attr(s)
 V(s)[V(s)$type == 1]$shape <- "square"
@@ -50,7 +50,7 @@ plot(s)
 
 #Visualisierung
 # Das sieht noch immer schrecklich aus. Je mehr Knoten (und Kanten), desto schlechter kann man das Netzwerk erkennen.
-# Ein weiterer Tipp für den plot-Befehl wäre es, das Netzwerk erst einmal zu entzerren.
+# Ein weiterer Tipp fÃ¼r den plot-Befehl wÃ¤re es, das Netzwerk erst einmal zu entzerren.
 
 coords <- layout_with_kk(s)*0.2
 
@@ -65,7 +65,7 @@ plot(s, edge.arrow.size=.1, layout=coords, rescale=FALSE, edge.color="grey80", e
      ylim=c(-2,3), xlim=c(-2,3))
 
 
-#Nun wollen rausfinden,wer hier die größten in und outdegrees hat  
+#Nun wollen rausfinden,wer hier die grÃ¶ÃŸten in und outdegrees hat  
 
 degree(s, mode="in")
 degree(s, mode="out")
@@ -78,14 +78,14 @@ degree(s, mode="all", normalized = TRUE)
 #NEUES NETZWERK 
 #NEUES NETZWERK
 
-#Netzwerk staatliche und private Unterstützer mit allen Indegrees >19 
+#Netzwerk staatliche und private UnterstÃ¼tzer mit allen Indegrees >19 
 
 
 library(igraph)
 # liest die Dateien direkt aus dem github-Verzeichnis ein
 el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterstuetzernetzwerk_edgelist_indegrees_groe%C3%9Fer19.csv", header=T, as.is=T, sep = ",")
 nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_nodelist_indegreesab19_Bezeichnung_mit_ID.csv", header=T, as.is=T, sep = ",")
-# prüft, ob alle Variablen eingelesen wurden
+# prÃ¼ft, ob alle Variablen eingelesen wurden
 head(el)
 head(nodes)
 # wandelt die edgelist in eine Matrix um und baut das igraph-Objekt
@@ -100,7 +100,7 @@ plot(s)
 
 #Visualisierung des Netzwerkes 
 # EDGE/KANTEN-Attribute festlegen
-# kleinere und schönere Kanten mit Pfeilspitzen mit Gewichten
+# kleinere und schÃ¶nere Kanten mit Pfeilspitzen mit Gewichten
 
 E(s)$arrow.size <- .2 # definiert die Pfeilspitze auf 20% des Ursprungswerts
 E(s)$color="grey60" # definiert die Kantenfarbe auf schwarz
@@ -118,7 +118,7 @@ plot(s)
 
 
 # EXTRA: TWO-MODE Netzwerke (bi-partite)
-# bei einem bi-partite Netzwerk haben Sie in der Regel die Rubrik "type" angelegt und mit 0 und 1 kodiert. Damit könnten Sie das Netzwerk wie folgt visualisieren (funktioniert in unserem Beispiel nicht, da wir kein bi-partite Netzwerk angelegt haben.)
+# bei einem bi-partite Netzwerk haben Sie in der Regel die Rubrik "type" angelegt und mit 0 und 1 kodiert. Damit kÃ¶nnten Sie das Netzwerk wie folgt visualisieren (funktioniert in unserem Beispiel nicht, da wir kein bi-partite Netzwerk angelegt haben.)
 
 vertex_attr(s)
 V(s)[V(s)$type == 1]$shape <- "square"
@@ -131,7 +131,7 @@ plot(s)
 
 #Visualisierung
 # Das sieht noch immer schrecklich aus. Je mehr Knoten (und Kanten), desto schlechter kann man das Netzwerk erkennen.
-# Ein weiterer Tipp für den plot-Befehl wäre es, das Netzwerk erst einmal zu entzerren.
+# Ein weiterer Tipp fÃ¼r den plot-Befehl wÃ¤re es, das Netzwerk erst einmal zu entzerren.
 
 coords <- layout_with_kk(s)*0.15
 
@@ -153,8 +153,8 @@ ego_size(s)
 ego(s)
 
 ego(s, order = 1, nodes = V(s)$name == "IOG", mode = "all")
-#selektiert das Ego-Netzwerk von IOG. In einem gerichteten Netzwerken kann "mode" durch in und out unterschieden werden. Mit dem Befehl "order" werden die angrenzenden Knoten ausgewählt, bei 1 sind dies alle Knoten, die direkt mit ego verbunden sind. Bei order = 2 werden auch Knoten erfasst, die zwei Schritte von Ego entfernt sind.
-#jedes Netzwerk in einzelne Egonetzwerke zerlegen; 1 Akteur den ich auswähle steht im Zentrum, 
+#selektiert das Ego-Netzwerk von IOG. In einem gerichteten Netzwerken kann "mode" durch in und out unterschieden werden. Mit dem Befehl "order" werden die angrenzenden Knoten ausgewÃ¤hlt, bei 1 sind dies alle Knoten, die direkt mit ego verbunden sind. Bei order = 2 werden auch Knoten erfasst, die zwei Schritte von Ego entfernt sind.
+#jedes Netzwerk in einzelne Egonetzwerke zerlegen; 1 Akteur den ich auswÃ¤hle steht im Zentrum, 
 
 
 # mit make_ego_graph lassen sichn spezifische Knoten des Netzwerks auflisten.
@@ -162,19 +162,19 @@ ego(s, order = 1, nodes = V(s)$name == "IOG", mode = "all")
 c
 IOG <- make_ego_graph(s, order = 1, nodes = V(s)$name == "IOG", mode = "all")
 IOG
-plot(IOG[[1]], main="Egonetzwerk IOG") # der Visualisierungsbefehl ist hier etwas umständlich.
+plot(IOG[[1]], main="Egonetzwerk IOG") # der Visualisierungsbefehl ist hier etwas umstÃ¤ndlich.
 
 #Neues Netzwerk 
 #Neues Netzwerk
 #Neues Netzwerk
 
-#Netzwerk staatliche und private Unterstützer mit allen Indegrees >19 ohne das Egonetzwerk von IOG!!!!
+#Netzwerk staatliche und private UnterstÃ¼tzer mit allen Indegrees >19 ohne das Egonetzwerk von IOG!!!!
 
 library(igraph)
 # liest die Dateien direkt aus dem github-Verzeichnis ein
 el <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_edgelist_indegreesab19_ID_ohneEGO_vonIOG.csv", header=T, as.is=T, sep = ",")
 nodes <- read.csv("https://raw.githubusercontent.com/hdm-sw184/Die-magische-Sieben/master/226305_Unterst%C3%BCtzernetzwerk_nodelist_indegreesab19_ID_ohneEgo_vonIOG.csv", header=T, as.is=T, sep = ",")
-# prüft, ob alle Variablen eingelesen wurden
+# prÃ¼ft, ob alle Variablen eingelesen wurden
 head(el)
 head(nodes)
 # wandelt die edgelist in eine Matrix um und baut das igraph-Objekt
@@ -189,7 +189,7 @@ plot(s)
 
 #Visualisierung des Netzwerkes 
 # EDGE/KANTEN-Attribute festlegen
-# kleinere und schönere Kanten mit Pfeilspitzen mit Gewichten
+# kleinere und schÃ¶nere Kanten mit Pfeilspitzen mit Gewichten
 
 E(s)$arrow.size <- .2 # definiert die Pfeilspitze auf 20% des Ursprungswerts
 E(s)$color="grey60" # definiert die Kantenfarbe auf schwarz
@@ -219,7 +219,7 @@ plot(s)
 
 #Visualisierung
 # Das sieht noch immer schrecklich aus. Je mehr Knoten (und Kanten), desto schlechter kann man das Netzwerk erkennen.
-# Ein weiterer Tipp für den plot-Befehl wäre es, das Netzwerk erst einmal zu entzerren.
+# Ein weiterer Tipp fÃ¼r den plot-Befehl wÃ¤re es, das Netzwerk erst einmal zu entzerren.
 
 coords <- layout_with_kk(s)*0.15
 
@@ -233,7 +233,7 @@ plot(s, edge.arrow.size=.1, layout=coords, rescale=FALSE, edge.color="grey80", e
      ylim=c(-0.85,0.85), xlim=c(-0.85,0.85))
 
 
-#Nun wollen rausfinden,wer hier die größten in und outdegrees hat  
+#Nun wollen rausfinden,wer hier die grÃ¶ÃŸten in und outdegrees hat  
 
 degree(s, mode="in")
 degree(s, mode="out")
@@ -241,7 +241,7 @@ degree(s, mode="out")
 #Degree Werte in Prozent Zahlen 
 degree(s, mode="all", normalized = TRUE)
 
-#Netzwerkmaße
+#NetzwerkmaÃŸe
 
 # Betweenness
 betweenness(s) # Wie wahrscheinlich ist es, dass dieser Knoten die Verbindung zu anderen Knoten im Netzwerk herstellen kann? - Bedeutung der schwachen Beziehungen
@@ -256,3 +256,20 @@ edge_density(s)
 triad_census(s)
 
 
+# Triadenzenus (eigentlich nur bei gerichteten Netzwerken)
+triad_census(s)
+
+# Ist es ein ganzes Netzwerk oder gibt es Teile (Komponenten)? 
+#True: es gibt Teile/mehrere Komponentne indem sich alle befinden 
+
+is_connected(s)
+
+#Neues Netzwerk mit Cluster
+#Neues Netzwerk mit Cluster
+#Neues Netzwerk mit Cluster
+
+#Cluster 
+
+cluster_walktrap(s)
+cluster <- cluster_walktrap(s)
+plot(cluster, s)
