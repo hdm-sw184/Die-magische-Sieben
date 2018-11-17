@@ -11,7 +11,7 @@ head(nodes)
 hties <- as.matrix(el)
 s <- graph_from_data_frame(d=hties, vertices=nodes, directed=T)
 s
-#Es gibt 38 Knoten, die 152 Beziehungen abbilden 
+
 
 # einfache Visualisierung
 plot(s)
