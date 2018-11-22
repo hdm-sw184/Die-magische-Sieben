@@ -1,41 +1,41 @@
 ## Ursprung und Datenerhebung
 
-wip
+Die Daten des Netzwerks wurden von den Webseiten und Jahresberichten der Mitglieder des WASH-Netzwerks erhoben. Aussortiert wurden dabei NGOs, die Isolates sind und somit mit keiner anderen NGO verbunden.
 
 ## EDGE-Attribute
 FROM
 Name der Person, nur Nachname. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt z.B. Mueller oder MuellerH
 
 TO
-NGO aus dem WASH-Netzwerk. Hierbei muss sich an der Liste der NGO-Abkürzungen orientiert werden.
+NGO aus dem WASH-Netzwerk. Hierbei muss sich an der Liste der NGO-Abkürzungen orientiert werden (siehe unten).
 
 ## NODE-Attribute
 ID
 Nachname der Person. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt. An der Edgelist orientieren
 
 NAME
-Ausgeschriebener Name mit Leerzeichen zwischen Vor- und Nachname-
+Nachname der Person. Falls der Name populär ist oder öfters vorkommt, wird der erste Buchstabe des Vornamens hinzugefügt.
+
+nameall
+Ausgeschriebener Name mit Leerzeichen zwischen Vor- und Nachname.
 
 SEX
 1 = männlich (rechteck)
-2 = weiblich (dreieck)
+2 = weiblich (kreis)
 3 = kein Geschlecht (NGOs) (kreis)
 
-POSITION
-Nur männliche Form: Präsident (rot/red), Vizepräsident (orange), Präsidium (gelb/yellow), Kuratorium (grün/green), Vorstand (hellblau/lightblue), Bundesvorstand (dunkelblau/blue), Verwaltungsrat (lila/purple),  Beirat (pink), Aufsichtsrat (braun/brown), NGO (grau)
-
 DERZEITIGENGO
-Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren
+Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren.
 
 PARTEI
-1 = CDU - schwarz
-2 = CSU - blau
+1 = CDU - pink
+2 = CSU - hellblau
 3 = SPD - rot
-4 = Bündnis 90 Grünen- grün
+4 = Bündnis 90 Grünen - grün
 5 = FDP - gelb
 6 = Die Linke - lila
 7 = NGO - grau
-8 = Keine Partei - weiß
+8 = Keine Partei - orange
 
 ## LISTE NGO-Abkürzungen
 
