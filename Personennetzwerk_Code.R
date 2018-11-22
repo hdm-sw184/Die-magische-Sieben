@@ -29,17 +29,17 @@ neutral <- V(p)[sex == "3"]
 V(p)[neutral]$shape = "circle" 
 
 # Farben der Partei zuweisen 
-# 1 = CDU - pink/schwarz 2 = CSU - blau 3 = SPD - rot 4 = Bündnis 90 Grünen- grün 5 = FDP - gelb 6 = Die Linke - lila  7 = NGO - grau 8 = Keine Partei - weiß
+# 1 = CDU - pink 2 = CSU - hellblau 3 = SPD - rot 4 = Bündnis 90 Grünen- grün 5 = FDP - gelb 6 = Die Linke - lila  7 = NGO - grau 8 = Keine Partei - orange
 
 colrs <- c("pink", "lightblue", "red", "green", "yellow", "purple", "darkgrey", "orange")
 V(p)$color <- colrs[V(p)$Partei]
 
 # Plot des Gesamtnetzwerks
 
-coords <- layout_with_kk(p)*1.2 # Entzerren
+coords <- layout_with_kk(p)*1.0 # Entzerren
 
 plot(p,
-     layout = layout_with_kk(p),
+     layout = coords,
      vertex.size = 40,
      vertex.label.cex=.5, 
      vertex.frame.color="transparent",
@@ -48,34 +48,14 @@ plot(p,
      main="Personennetzwerk",
      ylim=c(-3.5,4.5), xlim=c(-4.5,4.5))
 
-# Cluster
-gcw <- cluster_walktrap(p) # Zuordnung der Knoten zueinander
-modularity(gcw)
-membership(gcw)
-
-plot(gcw, p,
-     layout = coords,
-     vertex.size = 40,
-     vertex.label.cex=.5, 
-     vertex.frame.color="white",
-     vertex.label.color="black",
-     vertex.label.cex=0.7,
-     rescale=FALSE,
-     main="Personennetzwerk",
-     ylim=c(-4.5,5.5), xlim=c(-3,4))
-
-# Degree BRINGT NICHT WIRKLICH WAS
-degree(p)
-
-degree(p, mode="all", normalized = TRUE) # prozentualer Wert
 
 # Betweenness
-betweenness(p) # Wie wahrscheinlich ist es, dass dieser Knoten die Verbindung zu anderen Knoten im Netzwerk herstellen kann? - Bedeutung der schwachen Beziehungen
+betweenness(p) 
 
 # Durchmesser
 diameter(p)
 
-# Density
+# Density/Dichte
 edge_density(p)
 
 # Teilnetzwerk Rainer Funke
@@ -109,4 +89,4 @@ plot(kersting[[1]], main="Ego-Netzwerk Heinz-Joachim Kersting", vertex.label.cex
 ego(p, order = 1, nodes = V(p)$name == "Roth", mode = "all")
 roth <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Roth", mode = "all")
 roth
-plot(kersting[[1]], main="Ego-Netzwerk Karin Roth", vertex.label.cex=.7)
+plot(roth[[1]], main="Ego-Netzwerk Karin Roth", vertex.label.cex=.7)
