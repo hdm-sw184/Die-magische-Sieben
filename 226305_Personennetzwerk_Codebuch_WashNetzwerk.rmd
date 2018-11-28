@@ -24,6 +24,18 @@ SEX
 2 = weiblich (kreis)
 3 = kein Geschlecht (NGOs) (kreis)
 
+POSITION
+1 = Präsident 
+2 = Vizepräsident 
+3 = Präsidium 
+4 = Kuratorium 
+5 = Vorstand 
+6 = Bundesvorstand 
+7 = Verwaltungsrat 
+8 = Beirat 
+9 = Aufsichtsrat 
+10 = NGO (grau)
+
 DERZEITIGENGO
 Die derzeitige NGO, in der die Person tätig ist. An der Liste NGO Abkürzungen orientieren.
 
