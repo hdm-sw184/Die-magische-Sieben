@@ -57,36 +57,3 @@ diameter(p)
 
 # Density/Dichte
 edge_density(p)
-
-# Teilnetzwerk Rainer Funke
-ego(p, order = 1, nodes = V(p)$name == "Funke", mode = "all")
-funke <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Funke", mode = "all")
-plot(funke[[1]], main="Ego-Netzwerk Rainer Funke", vertex.label.cex=.7)
-
-# Teilnetzwerk Gesine Schwan
-ego(p, order = 1, nodes = V(p)$name == "Schwan", mode ="all")
-schwan <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Schwan", mode = "all")
-plot(schwan[[1]], main="Ego-Netzwerk Gesine Schwan", vertex.label.cex=.7)
-
-# Teilnetzwerk Barbel Dieckmann
-ego(p, order = 1, nodes = V(p)$name == "Dieckmann", mode = "all")
-dieckmann <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Dieckmann", mode = "all")
-dieckmann
-plot(dieckmann[[1]], main="Ego-Netzwerk Bärbel Dieckmann", vertex.label.cex=.7)
-
-# Teilnetzwerk Baerbel Kofler
-ego(p, order = 1, nodes = V(p)$name == "Kofler", mode = "all")
-kofler <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Kofler", mode = "all")
-plot(kofler[[1]], main="Ego-Netzwerk Bärbel Kofler", vertex.label.cex=.7)
-
-# Teilnetzwerk HeinzJoachim Kersting
-ego(p, order = 1, nodes = V(p)$name == "Kersting", mode = "all")
-kersting <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Kersting", mode = "all")
-kersting
-plot(kersting[[1]], main="Ego-Netzwerk Heinz-Joachim Kersting", vertex.label.cex=.7)
-
-# Teilnetzwerk Karin Roth
-ego(p, order = 1, nodes = V(p)$name == "Roth", mode = "all")
-roth <- make_ego_graph(p, order = 1, nodes = V(p)$name == "Roth", mode = "all")
-roth
-plot(roth[[1]], main="Ego-Netzwerk Karin Roth", vertex.label.cex=.7)
