@@ -1,5 +1,5 @@
 ## Ursprung und Datenerhebung
-wip
+Die Daten des Netzwerks wurden von den Webseiten und Jahresberichten der Mitglieder des WASH-Netzwerks erhoben. Aussortiert wurden dabei NGOs, die Isolates sind und somit mit keiner anderen NGO verbunden
 
 ## EDGE-Attribute
 FROM
